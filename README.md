@@ -34,12 +34,12 @@ export PATH=$PATH:$HOME/bin
 - And that's it. You should now be able to use gcc.sh.
 
 # Usage:
-- Running gcc.sh on its own will compile the most recently edited .c file and run it.
+- Running `gcc.sh` on its own will compile the most recently edited `.c` file and run it.
 - Let's say you last edited a file called `hello.c`.
   
 ![image](https://github.com/DanilaJeg/C-Auto-gcc/assets/42975212/70c8ffb7-6799-4021-834f-ec39d2eb103d)
 
-- Running gcc.sh (filename.c) will compile and run the specified file.
+- Running `gcc.sh (filename.c)` will compile and run the specified file.
   
 ![image](https://github.com/DanilaJeg/C-Auto-gcc/assets/42975212/19b55c7c-9c32-4d3d-827b-bedcc301081c)
 
@@ -49,7 +49,7 @@ export PATH=$PATH:$HOME/bin
 ![image](https://github.com/DanilaJeg/C-Auto-gcc/assets/42975212/0418a127-dc9b-4e77-a906-dcedaac4a905)
 
 
-- You can also run gcc.sh with the `-c` argument. This will compile the file and store it in a folder called **compiled**.
+- You can also run `gcc.sh` with the `-c` argument. This will compile the file and store it in a folder called **compiled**.
   
 ![image](https://github.com/DanilaJeg/C-Auto-gcc/assets/42975212/568d6248-1894-43cb-b214-35d3d0138012)
 

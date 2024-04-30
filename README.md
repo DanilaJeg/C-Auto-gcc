@@ -22,7 +22,11 @@ mv gcc.sh ~/bin/
 chmod +x ~/bin/gcc.sh
 ```
 
-- Then, you must add the bin folder to PATH. To do this, create a file called `.profile` in $HOME, and type:
+- Then, you must add the bin folder to PATH. To do this, create a file called `.profile` in $HOME:
+```
+nano $HOME/.profile
+```
+and type:
 ```
 export PATH=$PATH:$HOME/bin
 ```

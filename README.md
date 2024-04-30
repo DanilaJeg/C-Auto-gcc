@@ -39,7 +39,7 @@ export PATH=$PATH:$HOME/bin
   
 ![image](https://github.com/DanilaJeg/C-Auto-gcc/assets/42975212/70c8ffb7-6799-4021-834f-ec39d2eb103d)
 
-- Running (filename.c) will compile and run the specified file.
+- Running gcc.sh (filename.c) will compile and run the specified file.
   
 ![image](https://github.com/DanilaJeg/C-Auto-gcc/assets/42975212/19b55c7c-9c32-4d3d-827b-bedcc301081c)
 

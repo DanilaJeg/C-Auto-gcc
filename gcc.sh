@@ -12,7 +12,7 @@ fi
 if [ "$1" = "-c" ]; then
         shift
         if [[ "$1" == *.c && -f "$1" ]]; then
-        filename="$1"
+                filename="$1"
                 shift
         else
                 # Get the most recent .c file in the current directory

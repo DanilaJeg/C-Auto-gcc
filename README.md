@@ -30,8 +30,7 @@ and type:
 ```
 export PATH=$PATH:$HOME/bin
 ```
-
-- And that's it. You should now be able to use gcc.sh.
+- And **that's it!** You should now be able to use `gcc.sh`.
 
 # Usage:
 - Running `gcc.sh` on its own will compile the most recently edited `.c` file and run it.

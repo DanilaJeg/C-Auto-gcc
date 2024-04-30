@@ -53,6 +53,6 @@ export PATH=$PATH:$HOME/bin
   
 ![image](https://github.com/DanilaJeg/C-Auto-gcc/assets/42975212/568d6248-1894-43cb-b214-35d3d0138012)
 
-- You can also just type `gcc.sh -c` to compil the last edited file.
+- You can also just type `gcc.sh -c` to compile the last edited file.
 
 # Happy C coding!

@@ -13,6 +13,22 @@ sudo chmod +x /usr/bin/gcc.sh
 
 The shell script will now be in your /usr/bin/ directory, so you don't need to worry about its path when running the script.
 
+**IF YOU'RE DOING THIS ON A LAB MACHINE (DCU STUDENTS):**
+- Moving the file to /usr/bin/ won't work because of **permission denied**.
+- Instead, create a bin folder in your home directory, and move the gcc.sh file there:
+```
+mkdir ~/bin
+mv gcc.sh ~/bin/
+chmod +x ~/bin/gcc.sh
+```
+
+- Then, you must add the bin folder to PATH. To do this, create a file called `.profile` in $HOME, and type:
+```
+export PATH=$PATH:$HOME/bin
+```
+
+- And that's it. You should now be able to use gcc.sh.
+
 # Usage:
 - Running gcc.sh on its own will compile the most recently edited .c file and run it.
 - Let's say you last edited a file called `hello.c`.

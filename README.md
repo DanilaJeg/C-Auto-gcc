@@ -29,7 +29,7 @@ The shell script will now be in your /usr/bin/ directory, so you don't need to w
 ![image](https://github.com/DanilaJeg/C-Auto-gcc/assets/42975212/0418a127-dc9b-4e77-a906-dcedaac4a905)
 
 
-- You can also run gcc.sh with the `-c` argument. This will compile the file and store in in a folder called **compiled**.
+- You can also run gcc.sh with the `-c` argument. This will compile the file and store it in a folder called **compiled**.
   
 ![image](https://github.com/DanilaJeg/C-Auto-gcc/assets/42975212/568d6248-1894-43cb-b214-35d3d0138012)
 

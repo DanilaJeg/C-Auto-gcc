@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash or #!/bin/sh or #!/usr/bin/bash or #!/usr/bin/sh
 
 if [[ "$1" == *.c && -f "$1" ]]; then
         filename="$1"
